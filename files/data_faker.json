@@ -1,0 +1,460 @@
+{
+    "Martin PLC": [
+        {
+            "name": "Mercedes Cobb",
+            "job": "Systems developer",
+            "hourly_rate": 60,
+            "weekly_hours_worked": 41,
+            "contract_hours": 23
+        },
+        {
+            "name": "Justin Clarke",
+            "job": "Proofreader",
+            "hourly_rate": 27,
+            "weekly_hours_worked": 34,
+            "contract_hours": 31
+        },
+        {
+            "name": "Katrina Harris",
+            "job": "Public relations account executive",
+            "hourly_rate": 33,
+            "weekly_hours_worked": 44,
+            "contract_hours": 20
+        },
+        {
+            "name": "Gina Wright",
+            "job": "Theatre stage manager",
+            "hourly_rate": 64,
+            "weekly_hours_worked": 28,
+            "contract_hours": 27
+        },
+        {
+            "name": "Amber Hartman",
+            "job": "Radio broadcast assistant",
+            "hourly_rate": 58,
+            "weekly_hours_worked": 42,
+            "contract_hours": 18
+        },
+        {
+            "name": "Francisco Davenport",
+            "job": "Psychologist, sport and exercise",
+            "hourly_rate": 66,
+            "weekly_hours_worked": 29,
+            "contract_hours": 29
+        },
+        {
+            "name": "Dr. Christina Jones",
+            "job": "Manufacturing systems engineer",
+            "hourly_rate": 51,
+            "weekly_hours_worked": 43,
+            "contract_hours": 26
+        },
+        {
+            "name": "Kevin Hernandez",
+            "job": "Personal assistant",
+            "hourly_rate": 43,
+            "weekly_hours_worked": 48,
+            "contract_hours": 28
+        },
+        {
+            "name": "Ricky Bell",
+            "job": "Chartered accountant",
+            "hourly_rate": 49,
+            "weekly_hours_worked": 22,
+            "contract_hours": 48
+        },
+        {
+            "name": "Kayla Morris",
+            "job": "Personnel officer",
+            "hourly_rate": 74,
+            "weekly_hours_worked": 44,
+            "contract_hours": 19
+        },
+        {
+            "name": "Colin Bradford",
+            "job": "Industrial buyer",
+            "hourly_rate": 33,
+            "weekly_hours_worked": 27,
+            "contract_hours": 16
+        }
+    ],
+    "Flores PLC": [
+        {
+            "name": "Sabrina Miller",
+            "job": "Brewing technologist",
+            "hourly_rate": 62,
+            "weekly_hours_worked": 47,
+            "contract_hours": 22
+        },
+        {
+            "name": "Peggy Martin",
+            "job": "Horticulturist, amenity",
+            "hourly_rate": 31,
+            "weekly_hours_worked": 41,
+            "contract_hours": 23
+        },
+        {
+            "name": "Derek Smith",
+            "job": "Mechanical engineer",
+            "hourly_rate": 32,
+            "weekly_hours_worked": 21,
+            "contract_hours": 46
+        },
+        {
+            "name": "Jason Green",
+            "job": "Learning disability nurse",
+            "hourly_rate": 36,
+            "weekly_hours_worked": 25,
+            "contract_hours": 30
+        },
+        {
+            "name": "Amber Morris",
+            "job": "Pathologist",
+            "hourly_rate": 70,
+            "weekly_hours_worked": 40,
+            "contract_hours": 41
+        },
+        {
+            "name": "Rebecca Nguyen",
+            "job": "Oncologist",
+            "hourly_rate": 26,
+            "weekly_hours_worked": 35,
+            "contract_hours": 26
+        },
+        {
+            "name": "Michael Stout",
+            "job": "Scientist, audiological",
+            "hourly_rate": 41,
+            "weekly_hours_worked": 47,
+            "contract_hours": 39
+        },
+        {
+            "name": "Megan Grant",
+            "job": "Event organiser",
+            "hourly_rate": 44,
+            "weekly_hours_worked": 43,
+            "contract_hours": 40
+        },
+        {
+            "name": "Robin Baker",
+            "job": "Administrator, education",
+            "hourly_rate": 47,
+            "weekly_hours_worked": 21,
+            "contract_hours": 28
+        },
+        {
+            "name": "Sarah Odonnell",
+            "job": "Insurance risk surveyor",
+            "hourly_rate": 56,
+            "weekly_hours_worked": 22,
+            "contract_hours": 38
+        },
+        {
+            "name": "Corey Johnson",
+            "job": "Radiation protection practitioner",
+            "hourly_rate": 32,
+            "weekly_hours_worked": 41,
+            "contract_hours": 48
+        },
+        {
+            "name": "Jessica Chang",
+            "job": "Brewing technologist",
+            "hourly_rate": 66,
+            "weekly_hours_worked": 35,
+            "contract_hours": 17
+        },
+        {
+            "name": "Michele Fitzpatrick",
+            "job": "Scientific laboratory technician",
+            "hourly_rate": 48,
+            "weekly_hours_worked": 21,
+            "contract_hours": 43
+        },
+        {
+            "name": "Matthew Smith",
+            "job": "Chartered legal executive (England and Wales)",
+            "hourly_rate": 26,
+            "weekly_hours_worked": 31,
+            "contract_hours": 43
+        }
+    ],
+    "Rose, Ramsey and Turner": [
+        {
+            "name": "Ann Parker",
+            "job": "Museum/gallery exhibitions officer",
+            "hourly_rate": 54,
+            "weekly_hours_worked": 44,
+            "contract_hours": 25
+        },
+        {
+            "name": "Scott Reed",
+            "job": "Programmer, multimedia",
+            "hourly_rate": 32,
+            "weekly_hours_worked": 24,
+            "contract_hours": 41
+        },
+        {
+            "name": "Lawrence Duran MD",
+            "job": "Technical brewer",
+            "hourly_rate": 69,
+            "weekly_hours_worked": 36,
+            "contract_hours": 48
+        },
+        {
+            "name": "Miranda Skinner",
+            "job": "Furniture designer",
+            "hourly_rate": 46,
+            "weekly_hours_worked": 45,
+            "contract_hours": 17
+        },
+        {
+            "name": "Sergio Gallagher",
+            "job": "Cartographer",
+            "hourly_rate": 45,
+            "weekly_hours_worked": 46,
+            "contract_hours": 38
+        },
+        {
+            "name": "Heather Glass",
+            "job": "Television production assistant",
+            "hourly_rate": 69,
+            "weekly_hours_worked": 20,
+            "contract_hours": 15
+        },
+        {
+            "name": "Jacqueline Owens",
+            "job": "Buyer, industrial",
+            "hourly_rate": 36,
+            "weekly_hours_worked": 45,
+            "contract_hours": 34
+        },
+        {
+            "name": "Brian Hughes",
+            "job": "Clinical research associate",
+            "hourly_rate": 39,
+            "weekly_hours_worked": 47,
+            "contract_hours": 34
+        },
+        {
+            "name": "Danielle Whitaker",
+            "job": "Architect",
+            "hourly_rate": 57,
+            "weekly_hours_worked": 46,
+            "contract_hours": 40
+        },
+        {
+            "name": "Kenneth Moran",
+            "job": "Customer service manager",
+            "hourly_rate": 45,
+            "weekly_hours_worked": 42,
+            "contract_hours": 29
+        },
+        {
+            "name": "Anthony Bush",
+            "job": "Publishing copy",
+            "hourly_rate": 70,
+            "weekly_hours_worked": 44,
+            "contract_hours": 25
+        },
+        {
+            "name": "April Braun",
+            "job": "Therapist, music",
+            "hourly_rate": 33,
+            "weekly_hours_worked": 30,
+            "contract_hours": 17
+        }
+    ],
+    "Knapp-Lutz": [
+        {
+            "name": "Kevin Alvarez",
+            "job": "Technical sales engineer",
+            "hourly_rate": 33,
+            "weekly_hours_worked": 34,
+            "contract_hours": 19
+        },
+        {
+            "name": "David Cameron",
+            "job": "Building control surveyor",
+            "hourly_rate": 29,
+            "weekly_hours_worked": 40,
+            "contract_hours": 27
+        },
+        {
+            "name": "Rhonda Smith",
+            "job": "Camera operator",
+            "hourly_rate": 27,
+            "weekly_hours_worked": 38,
+            "contract_hours": 47
+        },
+        {
+            "name": "William Black",
+            "job": "Animal nutritionist",
+            "hourly_rate": 68,
+            "weekly_hours_worked": 38,
+            "contract_hours": 24
+        },
+        {
+            "name": "Hailey Smith",
+            "job": "Chief Marketing Officer",
+            "hourly_rate": 51,
+            "weekly_hours_worked": 28,
+            "contract_hours": 35
+        },
+        {
+            "name": "Paul Maxwell",
+            "job": "Clinical embryologist",
+            "hourly_rate": 51,
+            "weekly_hours_worked": 45,
+            "contract_hours": 39
+        },
+        {
+            "name": "Joseph Jones",
+            "job": "Stage manager",
+            "hourly_rate": 25,
+            "weekly_hours_worked": 37,
+            "contract_hours": 15
+        },
+        {
+            "name": "Mason Powell",
+            "job": "Trading standards officer",
+            "hourly_rate": 35,
+            "weekly_hours_worked": 27,
+            "contract_hours": 41
+        },
+        {
+            "name": "Brett Francis",
+            "job": "Environmental consultant",
+            "hourly_rate": 69,
+            "weekly_hours_worked": 31,
+            "contract_hours": 15
+        },
+        {
+            "name": "Michael Esparza",
+            "job": "Surveyor, mining",
+            "hourly_rate": 64,
+            "weekly_hours_worked": 34,
+            "contract_hours": 45
+        },
+        {
+            "name": "Javier Woods",
+            "job": "Merchandiser, retail",
+            "hourly_rate": 44,
+            "weekly_hours_worked": 23,
+            "contract_hours": 38
+        },
+        {
+            "name": "Tom Mcdowell",
+            "job": "Hydrogeologist",
+            "hourly_rate": 69,
+            "weekly_hours_worked": 35,
+            "contract_hours": 23
+        },
+        {
+            "name": "Brian Martinez",
+            "job": "Youth worker",
+            "hourly_rate": 32,
+            "weekly_hours_worked": 22,
+            "contract_hours": 17
+        }
+    ],
+    "Lee-Shaw": [
+        {
+            "name": "Cynthia Morrison",
+            "job": "Health and safety adviser",
+            "hourly_rate": 56,
+            "weekly_hours_worked": 35,
+            "contract_hours": 31
+        },
+        {
+            "name": "Alyssa Hoover",
+            "job": "Proofreader",
+            "hourly_rate": 47,
+            "weekly_hours_worked": 31,
+            "contract_hours": 43
+        },
+        {
+            "name": "Taylor Gonzalez",
+            "job": "Administrator, sports",
+            "hourly_rate": 53,
+            "weekly_hours_worked": 46,
+            "contract_hours": 29
+        },
+        {
+            "name": "Darren Gutierrez",
+            "job": "Oncologist",
+            "hourly_rate": 51,
+            "weekly_hours_worked": 30,
+            "contract_hours": 16
+        },
+        {
+            "name": "Nicole Russell",
+            "job": "Surveyor, land/geomatics",
+            "hourly_rate": 55,
+            "weekly_hours_worked": 44,
+            "contract_hours": 49
+        },
+        {
+            "name": "Kathy Perez",
+            "job": "Aeronautical engineer",
+            "hourly_rate": 30,
+            "weekly_hours_worked": 40,
+            "contract_hours": 45
+        },
+        {
+            "name": "Christopher Nguyen",
+            "job": "Restaurant manager",
+            "hourly_rate": 71,
+            "weekly_hours_worked": 26,
+            "contract_hours": 20
+        },
+        {
+            "name": "Brian Parsons",
+            "job": "Ship broker",
+            "hourly_rate": 34,
+            "weekly_hours_worked": 28,
+            "contract_hours": 25
+        },
+        {
+            "name": "Daniel Alvarado",
+            "job": "Office manager",
+            "hourly_rate": 71,
+            "weekly_hours_worked": 26,
+            "contract_hours": 45
+        },
+        {
+            "name": "Andrea Davis",
+            "job": "Futures trader",
+            "hourly_rate": 25,
+            "weekly_hours_worked": 42,
+            "contract_hours": 46
+        },
+        {
+            "name": "Jennifer King",
+            "job": "Science writer",
+            "hourly_rate": 35,
+            "weekly_hours_worked": 48,
+            "contract_hours": 40
+        },
+        {
+            "name": "Stephen Evans",
+            "job": "Bonds trader",
+            "hourly_rate": 26,
+            "weekly_hours_worked": 47,
+            "contract_hours": 40
+        },
+        {
+            "name": "Ms. Sharon Jones",
+            "job": "Associate Professor",
+            "hourly_rate": 62,
+            "weekly_hours_worked": 49,
+            "contract_hours": 17
+        },
+        {
+            "name": "Ricky Gibson",
+            "job": "Psychotherapist, dance movement",
+            "hourly_rate": 45,
+            "weekly_hours_worked": 36,
+            "contract_hours": 23
+        }
+    ]
+}

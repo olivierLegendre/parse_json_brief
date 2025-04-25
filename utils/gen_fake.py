@@ -1,6 +1,7 @@
 from faker import Faker
 import random as r
 import json
+import sys
 
 
 def create_subsidiary_name(nb_subsidiary: int) -> list:
@@ -73,8 +74,23 @@ def create_json_file(data: dict, origin_files, filename="data_faker.json") -> No
 
 
 def main():
-    fake_json = create_fake_json(5, 10, 20)
-    origin_files = "../files/"
+    """
+    generate fake data for app.py or app_stream.py
+    can take 0 arguments then defaut values are used 
+    else 3 int in order
+        number of subsidiary
+        lower bound for number of employees in each subsidiary
+        higher bound for number of employees in each subsidiary
+    """
+    nb_sub = 5
+    min_employee = 10
+    max_employee = 20
+    if len(sys.argv) == 4:
+        nb_sub = sys.argv[1]
+        min_employee = sys.argv[2]
+        max_employee = sys.argv[3]
+    fake_json = create_fake_json(nb_sub, min_employee, max_employee)
+    origin_files = "files/"
     create_json_file(fake_json, origin_files)
     # print(fake_json)
 
