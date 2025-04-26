@@ -14,17 +14,19 @@ def st_upload_file() -> dict:
         return json.load(uploaded_file)
 
 
-def st_dowload_file(data: dict, origin_file) -> None:
+def st_dowload_file() -> None:
     """
     Create a widget that dowload the data 
     that has be enriched to a JSON file
     Args:
-        data (dict): a dict containing the json file data
+        none
     """
+    data = st.session_state.base_data
     json_file = json.dumps(data, indent=4)
+    origin_file = "files/"
 
     st.download_button(
-        label="Download Json with new data",
+        label="Download JSON with new data",
         data=json_file,
         file_name=origin_file+"employees_data_download_auto.json",
         mime="application/json",
@@ -32,11 +34,11 @@ def st_dowload_file(data: dict, origin_file) -> None:
     )
 
 
-def st_add_button(data: dict):
+def st_add_button():
     """
     We add three buttons to toogle each way to display datas
     Args:
-        a dict containing the json file data
+        None
     """
     if 'button_1' not in st.session_state:
         st.session_state.button_1 = False
@@ -67,15 +69,18 @@ def st_add_button(data: dict):
     st.button("display Name Job", on_click=click_button_3)
 
     if st.session_state.button_1:
-        display_options_in_streamlit(data)
+        display_options_in_streamlit()
     elif st.session_state.button_2:
-        display_selection_by_employee(data)
+        display_selection_by_employee()
     elif st.session_state.button_3:
-        st_interactive_board(data)
+        st_interactive_board()
 
 
-def st_interactive_board(data):
-    
+def st_interactive_board():
+    """
+    display a widget, not quite finished
+    """
+    data = st.session_state.base_data
     sub_names = csm.get_subsidiary_name(data)
     option_subsidiary = st.selectbox(
         'Which subsidiary?',
@@ -98,29 +103,29 @@ def st_interactive_board(data):
                 col_job.markdown(employee["job"])
     
 
-def display_data_for_streamlit(data):
+def display_data_for_streamlit():
     """
     display data in streamlit
     parameters:
-        data(dict):  the full data
+        none
     Returns:
         none
     """
-    st_add_button(data)
+    st_add_button()
     
-    origin_file = "files/"
-    st_dowload_file(data, origin_file)
+    st_dowload_file()
 
 
-def display_options_in_streamlit(data):
+def display_options_in_streamlit():
     """
     we offer a selection by subsidiary 
     with checkbox to select employees or statistics
     parameters:
-        data(dict):  the full data
+        none
     Returns:
         none : 
     """
+    data = st.session_state.base_data
     sub_names = csm.get_subsidiary_name(data, True)
     
     option = st.selectbox(
@@ -140,15 +145,16 @@ def display_options_in_streamlit(data):
                 st.write(data[sub]["statistics"])
 
 
-def display_selection_by_employee(data):
+def display_selection_by_employee():
     """
     we offer a selection by textinput
     to look for a specific employee
     parameters:
-        data(dict):  the full data
+        none
     Returns:
         none : 
     """
+    data = st.session_state.base_data
     sub_names = csm.get_subsidiary_name(data)
     name_input = st.text_input(
         "Enter the name of your employee : "
@@ -174,14 +180,14 @@ def main():
         none : 
     """
     st.title('Salary Visualisation')
-    base_data = st_upload_file()
-    if base_data != None:
-        if csm.check_data_integrity(base_data):
-            corporate_data = csm.generate_enriched_data(base_data)
-            display_data_for_streamlit(corporate_data)
+    st.session_state.base_data = st_upload_file()
+    if st.session_state.base_data != None:
+        if csm.check_data_integrity(st.session_state.base_data):
+            st.session_state.corporate_data = csm.generate_enriched_data(st.session_state.base_data)
+            display_data_for_streamlit()
         else:
             st.write("JSON not valid")
-
+    
 
 if __name__ == "__main__":
     main()
